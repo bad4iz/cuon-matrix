@@ -14,7 +14,7 @@
     "build": "tsc && vite build",
     "build:watch": "tsc && vite build --watch",
     "preview": "vite preview",
-    "publish":"npm publish",
+    "publish": "npm publish",
     "link": "npm link cuon-matrix"
   },
   "devDependencies": {
