@@ -1,16 +1,10 @@
 {
   "name": "cuon-matrix",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
-  "exports": {
-    ".": {
-      "import": "./dist/main.es.js",
-      "require": "./dist/main.cjs.js"
-    }
-  },
-  "main": "./dist/main.cjs.js",
-  "module": "./dist/main.es.js",
+  "main": "./dist/main.cjs",
+  "module": "./dist/main.js",
   "typings": "./dist/main.d.ts",
   "files": [
     "dist"
@@ -19,7 +13,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "build:watch": "tsc && vite build --watch",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "publish":"npm publish",
+    "link": "npm link cuon-matrix"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "10.0.1",

@@ -11,8 +11,8 @@
  * Матрица заменяется рассчитанным результатом.
  */
 
-import {Vector3} from "~/Vector3/index.js";
-import {Vector4} from "~/Vector4/index.js";
+import {Vector3} from "~/Vector3";
+import {Vector4} from "src/Vector4";
 
 /**
  * Constructor of Matrix4
