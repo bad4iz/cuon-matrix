@@ -707,3 +707,6 @@ Matrix4.prototype.dropShadowDirectionally = function(normX, normY, normZ, planeX
     let a = planeX * normX + planeY * normY + planeZ * normZ;
     return this.dropShadow([normX, normY, normZ, -a], [lightX, lightY, lightZ, 0]);
 };
+
+
+export {Matrix4}
