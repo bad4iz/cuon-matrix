@@ -1,8 +1,7 @@
-# cuon-matrix
+# cuon-matrix 
 
-![](https://img.shields.io/npm/v/cuon-matrix.svg)
+[![](https://img.shields.io/npm/v/cuon-matrix.svg)](https://www.npmjs.com/package/cuon-matrix)
 ![](https://img.shields.io/npm/dt/cuon-matrix.svg)
-
 ![](https://img.shields.io/github/commit-activity/m/bad4iz/cuon-matrix.svg)
 ![](https://img.shields.io/github/last-commit/bad4iz/cuon-matrix.svg)
 
@@ -12,18 +11,22 @@
 [npm cuon-matrix](https://www.npmjs.com/package/cuon-matrix)
 
 
+> ## Сохраним наследие.
+>!["Cuon alpinus"](/cuon_alpinus.jpg "Cuon alpinus")  
+> В поддержку Красного волка (*Cuon alpinus*) внесённого в красную книгу.  
+> В Сибири местные жители называют его «улан шоно» (красный волк) и «чикалка».
+
+
+
 
 > !!! пишем документацию по мере проекта
 
-![сuon_alpinus.jpg](%F1uon_alpinus.jpg "Cuon alpinus" )
-![Alt text](https://github.com/bad4iz/cuon-matrix/ )
-> В поддержку Красного волка (Cuon alpinus) внесённого в красную книгу.
-> В Сибири местные жители называют его «улан шоно» (красный волк) и «чикалка».
-> ## Сохраним наследие.
--------------------------------------------------------
-> ![](https://newreleases.io/icon/github/JetBrains)
+# Библиотека матричных преобразований: cuon-matrix 
+С помощью которой вы сможете создавать матрицы преобразований подобно тому, как это делается в OpenGL.
 
- IDE предоставлена компанией JetBrains, для поддержки опенсорса  https://jb.gg/OpenSource.
-> the IDE is provided by the JetBrains to support open source https://jb.gg/OpenSource.
+В программах на JavaScript тригонометрические функции доступны как методы объекта Math.
+Аналогично функции создания матриц преобразований доступны как методы объекта Matrix4,
+который определяется в cuon-matrix. Matrix4 – это новый объект и, как следует из его
+имени, реализует операции с матрицами 4×4. Эти матрицы представлены типизированными массивами Float32Array.
 
 
