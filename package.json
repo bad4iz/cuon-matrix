@@ -1,7 +1,7 @@
 {
   "name": "cuon-matrix",
   "private": false,
-  "version": "0.1.1",
+  "version": "0.2.0",
   "type": "module",
   "main": "./dist/main.cjs",
   "module": "./dist/main.js",
@@ -10,21 +10,29 @@
     "dist"
   ],
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
     "build:watch": "tsc && vite build --watch",
+    "coverage": "vitest run --coverage",
+    "dev": "vite",
+    "link": "npm link cuon-matrix",
     "preview": "vite preview",
     "publish": "npm publish",
-    "link": "npm link cuon-matrix"
+    "test": "vitest"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "10.0.1",
     "@types/node": "18.11.17",
+    "@typescript-eslint/eslint-plugin": "5.46.1",
+    "@typescript-eslint/parser": "5.46.1",
     "eslint": "8.30.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.6.4",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
     "prettier": "2.8.1",
     "rollup-plugin-typescript-paths": "1.4.0",
     "tslib": "2.4.1",
     "typescript": "4.9.4",
-    "vite": "4.0.1"
+    "vite": "4.0.1",
+    "vitest": "0.25.0"
   }
 }
