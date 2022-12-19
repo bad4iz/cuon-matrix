@@ -16,7 +16,7 @@
     "dev": "vite",
     "link": "npm link cuon-matrix",
     "preview": "vite preview",
-    "publish": "npm publish",
+    "pub": "npm publish",
     "test": "vitest"
   },
   "devDependencies": {
