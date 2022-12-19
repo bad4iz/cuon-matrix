@@ -15,7 +15,7 @@
 
 > !!! пишем документацию по мере проекта
 
-![сuon_alpinus.jpg](%F1uon_alpinus.jpg "Cuon alpinus" )
+![сuon_alpinus.jpg](/cuon_alpinus.jpg "Cuon alpinus" )
 ![Alt text](https://github.com/bad4iz/cuon-matrix/ )
 > В поддержку Красного волка (Cuon alpinus) внесённого в красную книгу.
 > В Сибири местные жители называют его «улан шоно» (красный волк) и «чикалка».
