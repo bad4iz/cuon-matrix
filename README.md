@@ -13,7 +13,7 @@
 
 
 > ## Сохраним наследие.
->!["Cuon alpinus"](/cuon_alpinus.jpg "Cuon alpinus")  
+>!["Cuon alpinus"](https://github.com/bad4iz/cuon-matrix/blob/main/cuon_alpinus.jpg?raw=true "Cuon alpinus")  
 > В поддержку Красного волка (*Cuon alpinus*) внесённого в красную книгу.  
 > В Сибири местные жители называют его «улан шоно» (красный волк) и «чикалка».
 

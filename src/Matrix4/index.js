@@ -1,5 +1,5 @@
-import { Vector3 } from 'src/Vector3';
-import { Vector4 } from 'src/Vector4';
+import { Vector3 } from '~/Vector3';
+import { Vector4 } from '~/Vector4';
 
 /**
  * @name cuon-matrix @2022
