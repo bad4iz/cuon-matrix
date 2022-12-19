@@ -1,4 +1,6 @@
 # Библиотека матричных преобразований: cuon-matrix 
+With which you can create transformation matrices similar to how it is done in OpenGL.   
+С помощью которой вы сможете создавать матрицы преобразований подобно тому, как это делается в OpenGL.  
 
 ![](https://img.shields.io/npm/v/cuon-matrix.svg)
 ![](https://img.shields.io/npm/dt/cuon-matrix.svg)
