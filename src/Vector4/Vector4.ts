@@ -13,10 +13,10 @@
  * @param {[Float, Float, Float, Float]} [opt_src] - Source vector(option).
  */
 class Vector4 {
-  readonly elements: Float32Array
+  readonly elements: Float32Array;
   constructor(opt_src: [number, number, number, number] = [0, 0, 0, 0]) {
-    this.elements = new Float32Array(opt_src.slice(0, 4))
+    this.elements = new Float32Array(opt_src.slice(0, 4));
   }
 }
 
-export { Vector4 }
+export { Vector4 };
