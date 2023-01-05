@@ -1,18 +1,31 @@
 /**
- * Конструктор Vector3
- * Если указан opt_src, новый вектор инициализируется opt_src.
+ * Тип пропросов массива из трех элементов.
  *
- * @param opt_src source vector(option)
+ * @example ------
+ * const arr: Array4 = [1, 2, 1]
+ */
+export type Array3 = readonly [number, number, number];
+
+/**
+ * Vector3 - _Трехмерный вектор (вектор из трех элементов)._
+ *
+ * @example ------
+ * new Vector3();
  */
 class Vector3 {
   readonly elements: Float32Array;
 
-  constructor(opt_src: [number, number, number] = [0, 0, 0]) {
-    this.elements = new Float32Array(opt_src.slice(0, 3));
+  /**
+   * Constructor.
+   *
+   * @param {Array3} [arr3=[0, 0, 0, 0]] - The source vector.
+   */
+  constructor(arr3: Array3 = [0, 0, 0]) {
+    this.elements = new Float32Array(arr3.slice(0, 3));
   }
 
   /**
-   * Нормализовать.
+   * Нормализовать вектор.
    *
    * @returns {Vector3} this
    */

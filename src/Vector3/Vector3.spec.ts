@@ -18,3 +18,14 @@ test('Vector3 constructor default', () => {
     elements: new Float32Array([0, 0.9999499917030334, 0.009999499656260014]),
   });
 });
+
+test('Vector3 normalize', () => {
+  const vector31 = new Vector3([0, 50, 0.5]);
+  expect(vector31.normalize()).toEqual({
+    elements: new Float32Array([0, 0.9999499917030334, 0.009999499656260014]),
+  });
+  const vector32 = new Vector3([50, 50, 50]);
+  expect(vector31.normalize()).toEqual({
+    elements: new Float32Array([0, 0.9999499917030334, 0.009999499656260014]),
+  });
+});

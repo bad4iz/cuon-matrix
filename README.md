@@ -24,6 +24,31 @@ With which you can create transformation matrices similar to how it is done in O
 
 > !!! пишем документацию по мере проекта
 
+## Vector3 - _Трехмерный вектор (вектор из трех элементов)._
+Дефолтное значение.
+```js
+const vector3 = new Vector3();
+
+vector3 //? Vector3 { elements: Float32Array { [Iterator]  0: 0, 1: 0, 2: 0 } }
+vector3.elements.length //? 3
+```
+Задаем через конструктор начальное значение.
+```js
+const vector3 = new Vector3([0, 50, 0.5]);
+
+vector3.elements //? Float32Array { [Iterator]  0: 0, 1: 50, 2: 0.5 }
+```
+Нормализация
+```js
+const vector3 = new Vector3([0, 50, 0.5]);
+
+vector3.elements //? Float32Array { [Iterator]  0: 0, 1: 50, 2: 0.5 }
+
+vector3.normalize()
+vector3.elements //? Float32Array { [Iterator]  0: 0, 1: 0.9999499917030334, 2: 0.009999499656260014 }
+
+```
+
 ## cuon-matrix
 С помощью которой вы сможете создавать матрицы преобразований подобно тому, как это делается в OpenGL.
 
